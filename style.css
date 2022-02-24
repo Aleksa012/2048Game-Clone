@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(5, 5, 66);
+}
+
+/* Game */
+
+.game {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats {
+  color: aliceblue;
+  font-size: 5rem;
+  font-style: italic;
+  margin-bottom: 3rem;
+}
+
+.board {
+  background-color: rgb(62, 146, 146);
+  height: 40rem;
+  width: 40rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  height: 10rem;
+  width: 10rem;
+  background-color: rgb(180, 38, 38);
+  border: 3px solid grey;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
